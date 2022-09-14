@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+@font-face{
+    font-family:"Larsseit";
+    src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body{
+    font-family: "Larsseit";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ol {
+    font-family: "Lato";
+    font-weight: 700;
+    color: red;
+}
+
+h1{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+}
+.introduction p{
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+h2{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.image-block,
+.video,
+h1,
+h2{
+    text-align: center;
+}
+
+h4{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.start p{
+    color: darkblue;
+}
+
+p.dark-grey{
+    color: darkgray ;
+}
+
+#start-of-way{
+    color: rgb(235, 115, 115);
+}
+
+.musicians{
+    font-family: "Lato";
+    font-weight: 900;
+}
+
+.musicians.ozzy {
+    color: brown;
+}
+
+.musicians.tony {
+    color: red;
+}
+
+.musicians.geezer {
+    color: blue;
+}
+
+.musicians.bill  {
+    color: blueviolet;
+}
+
+.glory-coming h2 {
+    color: blueviolet;
+}
+.glory-coming h2 + p{
+    color: darkblue;
+}   
+
+.glory-coming p{
+    color:brown;
+}
+
+.gold{
+    color: gold;
+}
+
+.golden-stage > p{
+    color:chocolate;
+}
+
+.golden-stage ~ .sound-change{
+    color: darkgreen;
+}
+
+.musicians.dio{
+    color: rgb(89, 194, 194);
+}
+
+.new-stage p{
+    color: indigo;
+}
+
+.new-stage h2{
+    color: rgb(21, 186, 24);
+}
+
+.new-stage .image-block + p{
+    color: coral;
+}
+
+p.new-stage + p{
+    color: deepskyblue;
+}
+
+.reunion p{
+    color: darkred;
+}
+
+.reunion p{
+    color: rgb(209, 133, 66) !important; 
+    
+}
+
+a{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+}
+
+
+
+
+
+
